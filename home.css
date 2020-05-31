@@ -1,0 +1,97 @@
+* { 
+    margin: 0;
+    padding: 0; 
+    border: 0; 
+    outline: 0;
+    font-size: 0;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+#main_text {
+    font-family: "Poppins";
+    color: "#404040";
+}
+
+#angie_photo { 
+    position: absolute;
+    left: 65%; 
+    top: 20%;
+}
+
+p { 
+    position: absolute;
+    left: 16%; 
+    top: 48%;
+    font-size: 22px;
+    color: "#404040";
+}
+
+html{ 
+    font-family: "Poppins", sans-serif;
+}
+
+h1 {
+    color: "#404040";
+    font-size: 15vh;
+    font-weight: bold;
+    position: absolute;
+    left: 16%; 
+    top: 20%;
+}
+
+h2 { 
+    font-size: 60vw;
+    font-weight: 480; 
+}
+
+body { 
+    width: 60%;
+    margin: auto;
+}
+
+/*-------- Nav ----- */
+
+.nav { 
+    display: flex;
+    align-items: center;
+    height: 140px;
+}
+
+.contactMe, .socials { 
+    flex: 1;
+}
+
+.socials { 
+    position: absolute;
+    text-align: right;
+    left: 80%;
+}
+
+.socials a, .contactMe a, .contactMe img { 
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.socials a { 
+    margin-left: 40px;  
+}
+
+.contactMe img {
+    margin-right: 10px; 
+}
+
+.contactMe a { 
+    color: hotpink;
+    text-decoration: none;
+
+}
+
+
+
+
+
+
+
+
+
